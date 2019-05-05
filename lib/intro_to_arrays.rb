@@ -12,6 +12,7 @@ end
 
 
 def first_element(my_first_element)
+<<<<<<< HEAD
   my_first_element = @taylor_swift
   @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of the Woods"]
   return my_first_element[0]
@@ -45,3 +46,9 @@ def length_of_array(length)
   @programming_languages = ["Ruby", "JAvascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
   return length.size
 end
+=======
+  my_first_element = first_element(@taylor_swift)
+  @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of the Woods"]
+  return my_first_element[0]
+end 
+>>>>>>> beb4ffb25bdf79455be1249e90b39434c748379d
